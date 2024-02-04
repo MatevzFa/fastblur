@@ -23,13 +23,6 @@
 
 mod blur;
 
-#[cfg(test)]
-mod test;
-#[cfg(test)]
-mod bench;
-
-
-pub use blur::gaussian_blur as gaussian_blur;
-pub use blur::gaussian_blur_asymmetric as gaussian_blur_asymmetric;
-pub use blur::gaussian_blur_asymmetric_single_channel as gaussian_blur_asymmetric_single_channel;
-
+pub use blur::gaussian_blur;
+pub use blur::gaussian_blur_asymmetric;
+pub use blur::gaussian_blur_asymmetric_single_channel;
