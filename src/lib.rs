@@ -25,4 +25,3 @@ mod blur;
 
 pub use blur::gaussian_blur;
 pub use blur::gaussian_blur_asymmetric;
-pub use blur::gaussian_blur_asymmetric_single_channel;
