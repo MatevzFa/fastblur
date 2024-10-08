@@ -1,6 +1,7 @@
 [package]
 name = "fastblur"
 version = "0.1.1"
+edition = "2021"
 authors = ["Felix Schütt <felix.schuett@maps4print.com>"]
 repository = "https://github.com/fschutt/fastblur"
 homepage = "https://github.com/fschutt/fastblur"
